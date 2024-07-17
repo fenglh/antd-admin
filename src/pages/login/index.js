@@ -13,6 +13,7 @@ import styles from './index.less'
 const FormItem = Form.Item
 
 @connect(({ loading, dispatch }) => ({ loading, dispatch }))
+
 class Login extends PureComponent {
 
   render() {
